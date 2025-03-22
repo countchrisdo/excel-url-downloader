@@ -7,3 +7,5 @@ image files
 *.png
 *.jpg
 *.jpeg
+
+error_log.json
