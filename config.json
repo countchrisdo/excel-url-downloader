@@ -1,5 +1,5 @@
 {
-    "excel_file": "input.xlsx",
+    "excel_file": "INPUTA.xlsx",
     "url_column": "Image URL Link",
     "output_folder": "downloaded_images",
     "chunk_size": 1024
