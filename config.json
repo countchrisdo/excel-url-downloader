@@ -2,5 +2,5 @@
     "excel_file": "input.xlsx",
     "url_column": "Image URL Link",
     "output_folder": "downloaded_images",
-    "chunk_size": 1024
+    "max_concurrent_downloads": 100
 }

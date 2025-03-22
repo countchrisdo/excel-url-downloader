@@ -9,3 +9,5 @@ image files
 *.jpeg
 
 error_log.json
+
+.DS_Store
