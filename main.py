@@ -77,7 +77,7 @@ def log_errors(err_log):
         )
         if err_log["invalid_urls"]:
             print("Invalid URLs:")
-            for row, url in error_log["invalid_urls"].items():
+            for row, url in err_log["invalid_urls"].items():
                 print(f"Row {row}: {url}")
         if err_log["download_errors"]:
             print("Download Errors:")
@@ -85,7 +85,7 @@ def log_errors(err_log):
                 print(f"Row {row} : URL and Error \n {error_info}")
 
     with open("error_log.json", "w") as error_file:
-        json.dump(error_log, error_file, indent=4)
+        json.dump(err_log, error_file, indent=4)
 
 
 async def get_images(file, column, output, max_dls, err_log):

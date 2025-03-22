@@ -1,25 +1,25 @@
 {
-    "invalid_urls": {
-        "50": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "100": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "30": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "80": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "10": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "60": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "110": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "40": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "90": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "20": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-        "70": "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg"
+  "invalid_urls" : {
+    "50" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "100" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "30" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "80" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "10" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "60" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "110" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "40" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "90" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "20" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
+    "70" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg"
+  },
+  "download_errors" : {
+    "112" : {
+      "url" : "https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg",
+      "error" : "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     },
-    "download_errors": {
-        "112": {
-            "url": "https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg",
-            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-        },
-        "111": {
-            "url": "https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg",
-            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
-        }
+    "111" : {
+      "url" : "https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg",
+      "error" : "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
     }
+  }
 }

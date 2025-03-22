@@ -1,5 +1,5 @@
 {
-    "excel_file": "input.xlsx",
+    "excel_file": "MSC_CONFIDENTIAL_FEDERAL_PLATINUM_EFFECTIVE_04.01.2025_FILE_B_STOCKED.xlsx",
     "url_column": "Image URL Link",
     "output_folder": "downloaded_images",
     "max_concurrent_downloads": 100
