@@ -1,0 +1,9 @@
+all excel files
+*.xlsx
+*.xls
+*.xlsm
+
+image files
+*.png
+*.jpg
+*.jpeg
