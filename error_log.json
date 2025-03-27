@@ -1,25 +1,510 @@
 {
-  "invalid_urls" : {
-    "50" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "100" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "30" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "80" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "10" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "60" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "110" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "40" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "90" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "20" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg",
-    "70" : "1https://cdn.mscdirect.com/global/images/ProductImages/5692137-24.jpg"
-  },
-  "download_errors" : {
-    "112" : {
-      "url" : "https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg",
-      "error" : "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/21582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    "invalid_urls": {
+        "179190": NaN,
+        "179191": NaN,
+        "179192": NaN,
+        "179193": NaN,
+        "179194": NaN,
+        "179195": NaN,
+        "179196": NaN,
+        "179197": NaN,
+        "179198": NaN,
+        "179199": NaN,
+        "179200": NaN
     },
-    "111" : {
-      "url" : "https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg",
-      "error" : "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/11582198-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+    "download_errors": {
+        "35783": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8902372-24.jpg",
+            "error": ""
+        },
+        "103506": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6185710-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6185710-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "124994": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "124995": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "124996": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0952344a-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "104314": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6156688-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6156688-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "104315": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6156688-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6156688-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "25086": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7571993-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7571993-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "25087": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7571993-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7571993-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "126409": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0879403-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0879403-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "126411": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0879402-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0879402-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "126413": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0879401A-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0879401A-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "106401": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5877447-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5877447-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "85801": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099978-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099978-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "85883": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099817-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099817-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "11955": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/1934902-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/1934902-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "11958": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/1934891-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/1934891-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "11959": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/1934890-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/1934890-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "11960": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/1934887-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/1934887-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "11961": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/1934882-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/1934882-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "85976": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099613-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099613-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86144": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099360-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099360-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86169": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099328-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099328-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86187": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099295-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099295-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "169198": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0181596-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0181596-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "169197": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0181597-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0181597-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "169199": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0181595-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0181595-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86259": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099183-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099183-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86261": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7099179-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7099179-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86352": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098989-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098989-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86356": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098984-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098984-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86359": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098980-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098980-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86361": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098977-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098977-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86396": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098887-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098887-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86492": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098681-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098681-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86511": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098638-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098638-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86517": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098619-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098619-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86521": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098608-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098608-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86527": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098598-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098598-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "86585": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7098473-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7098473-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "12021": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7313268-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7313268-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "12023": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7313261-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7313261-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "12026": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7292195-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7292195-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "149286": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "149288": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "149287": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "149289": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "149290": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/000044011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "87559": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7096296-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7096296-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "87565": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7096289-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7096289-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "87670": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7096061-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7096061-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "39847": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5817181-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5817181-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "87719": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7095981-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7095981-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "87731": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7095955-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7095955-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "69895": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/9181103-11.jpg",
+            "error": "peer closed connection without sending complete message body (received 63367 bytes, expected 134615)"
+        },
+        "88289": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7094404-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7094404-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "171436": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/3726202-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/3726202-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "171437": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/3584496-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/3584496-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "10250": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0583519-24.jpg",
+            "error": ""
+        },
+        "89177": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7091029-24.jpg",
+            "error": ""
+        },
+        "43134": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0559394-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0559394-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "43135": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0559392-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0559392-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "43140": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0559370-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0559370-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "90087": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7003432-24.jpg",
+            "error": ""
+        },
+        "24297": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8841437-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8841437-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "23800": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0343359-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0343359-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "112304": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/4710433-24.jpg",
+            "error": ""
+        },
+        "112639": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/4566007-24.jpg",
+            "error": ""
+        },
+        "134263": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "134265": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "134264": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0461055-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "134266": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0461054-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0461054-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "134625": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0446479-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0446479-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176492": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/9894743-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/9894743-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176498": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/2099914-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/2099914-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176499": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/2099842-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/2099842-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176501": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/2099823-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/2099823-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176500": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/2099842-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/2099842-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "176844": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5511372AA-21.jpg",
+            "error": ""
+        },
+        "177006": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8170079-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8170079-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "76087": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8189079-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8189079-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "177707": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7901645-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7901645-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "177732": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7764297-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7764297-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "177870": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6941278-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6941278-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "76774": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8109778-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8109778-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "76990": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095959-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095959-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77400": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095052-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095052-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77403": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095049-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095049-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77411": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095038-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095038-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77409": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095041-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095041-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77416": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095029-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095029-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77420": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095024-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095024-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77424": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095020-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095020-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77434": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095009-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095009-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77437": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8095005-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8095005-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "77447": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8094990-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8094990-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "78109": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8093467-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8093467-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "117285": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/4113176-24.jpg",
+            "error": ""
+        },
+        "78461": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8092899-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8092899-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "58341": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7965834AA-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7965834AA-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "163774": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/9724106-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/9724106-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49242": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5562596-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5562596-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "59448": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "59449": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "59450": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6340013-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49892": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/LINEART X2008.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/LINEART%20X2008.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49893": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/LINEART X1012.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/LINEART%20X1012.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49895": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/LINEART X1004.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/LINEART%20X1004.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49894": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/LINEART X1011.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/LINEART%20X1011.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "49896": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/LINEART X1002.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/LINEART%20X1002.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "27915": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/8300593A-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/8300593A-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "33466": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5914291-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5914291-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "33470": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5914212-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5914212-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "33481": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5908010-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5908010-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "33491": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5907971-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5907971-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "23638": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/0645070-21.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/0645070-21.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "100050": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6646085-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/6646085-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "80817": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/7815181-11.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/7815181-11.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        },
+        "101698": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/6452913-24.jpg",
+            "error": ""
+        },
+        "164033": {
+            "url": "https://cdn.mscdirect.com/global/images/ProductImages/5929940-24.jpg",
+            "error": "Client error '404 Not Found' for url 'https://cdn.mscdirect.com/global/images/ProductImages/5929940-24.jpg'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+        }
+    },
+    "METADATA": {
+        "excel_file": "INPUTB.xlsx",
+        "timestamp": "2025-03-22 16:34:07",
+        "config": {
+            "excel_file": "INPUTB.xlsx",
+            "url_column": "Image URL Link",
+            "output_folder": "downloaded_images",
+            "max_concurrent_downloads": 25
+        },
+        "notes": "",
+        "num_urls": 131,
+        "num_errors": 131
     }
-  }
 }

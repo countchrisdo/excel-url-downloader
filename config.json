@@ -1,6 +1,6 @@
 {
-    "excel_file": "INPUTA.xlsx",
+    "excel_file": "INPUTB.xlsx",
     "url_column": "Image URL Link",
     "output_folder": "downloaded_images",
-    "max_concurrent_downloads": 100
+    "max_concurrent_downloads": 25
 }
