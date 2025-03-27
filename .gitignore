@@ -8,6 +8,6 @@ image files
 *.jpg
 *.jpeg
 
-error_log.json
+error_log*
 
 .DS_Store

@@ -1,5 +1,5 @@
 {
-    "excel_file": "INPUTB.xlsx",
+    "excel_file": "Photos Merge3 4.1.24 AB.xlsx",
     "url_column": "Image URL Link",
     "output_folder": "downloaded_images",
     "max_concurrent_downloads": 25

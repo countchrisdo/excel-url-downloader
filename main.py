@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 import httpx
 import pandas as pd
 from tqdm import tqdm
+import sys
 
 
 USER_AGENTS = [
@@ -22,6 +23,29 @@ USER_AGENTS = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
 ]
 
+def main():
+    """ Main function to read the configuration, initialize the error log, and start the download process."""
+    print("Starting program...")
+    with open("config.json", "r") as config_file:
+        config = json.load(config_file)
+    # returns a dictionary of the configuration file.
+
+    excel_file = config.get("excel_file", "input.xlsx")
+    url_column = config.get("url_column", "URL")
+    output_folder = config.get("output_folder", "downloaded_images")
+    max_concurrent_downloads = config.get("max_concurrent_downloads", 50)
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Initialize an error log dictionary
+    error_log = {"invalid_urls": {}, "download_errors": {},
+                "METADATA": {"excel_file": excel_file, "timestamp": current_time, "config": config, "notes": ""}}
+    
+    log_errors(error_log)
+
+    # Run the asynchronous image download function
+    asyncio.run(
+        get_images(config, error_log)
+    )
 
 def get_file_extension(url, default_ext=".jpg"):
     """Returns the file extension of the URL if it's a valid image type, otherwise returns a default extension."""
@@ -34,25 +58,13 @@ def get_file_extension(url, default_ext=".jpg"):
         else default_ext
     )
 
-
+# Put in config or something later
 CONSECUTIVE_FAILURE_THRESHOLD = 100
 consecutive_failures = 0
 
 async def download_image(semaphore, client, url, output, index, err_log, max_retries=3):
     """
     Downloads an image from a URL and saves it to the specified output directory.
-
-    Args:
-        semaphore (asyncio.Semaphore): Semaphore to limit concurrent downloads.
-        client (httpx.AsyncClient): HTTP client for making requests.
-        url (str): URL of the image to download.
-        output (str): Directory to save the downloaded image.
-        index (int): Index of the URL in the list for logging purposes.
-        error_log (dict): Dictionary to log errors.
-        max_retries (int): Maximum number of retries for failed downloads.
-
-    Returns:
-        None
     """
     global consecutive_failures
     async with semaphore:
@@ -132,29 +144,48 @@ def log_errors(err_log):
             for row, error_info in err_log["download_errors"].items():
                 print(f"Row {row} : URL and Error \n {error_info}")
 
-    with open("error_log.json", "w") as error_file:
+    # Determine the filename for the error log
+    base_filename = "error_log.json"
+    if os.path.exists(base_filename):
+        timestamp = err_log["METADATA"]["timestamp"].replace(":", "-").replace(" ", "_")
+        base_filename = f"error_log_{timestamp}.json"
+
+    with open(base_filename, "w") as error_file:
         json.dump(err_log, error_file, indent=4)
 
 
-async def get_images(file, column, output, max_dls, err_log):
+async def get_images(config, err_log):
     """extracts URLs from an Excel file and calls the download_images function."""
-    print(f"Reading Excel file: {file}")
-    df = pd.read_excel(file)
+    file_name = config["excel_file"]
+    column_name = config["url_column"]
+    output_dir = config["output_folder"]
+    max_dls = config["max_concurrent_downloads"]
 
-    if column not in df.columns:
-        print(f"Error: Column '{column}' not found in the Excel file.")
+    print(f"Reading Excel file: {file_name}")
+    df = pd.read_excel(file_name, sheet_name=0, usecols=[column_name])
+    # with usecols we can specify the column to be read from the Excel file. Saving memory. Still returns a DataFrame. so we access the column using df[column]
+
+    if column_name not in df.columns:
+        print(f"Error: Column '{column_name}' not found in the Excel file.")
         return
     print("File read. Starting download...")
 
-    os.makedirs(output, exist_ok=True)
+    os.makedirs(output_dir, exist_ok=True)
 
     semaphore = asyncio.Semaphore(max_dls)
 
+    # Download images concurrently
+    # Creating async HTTP client.
     async with httpx.AsyncClient() as client:
+        # tasks[]: List comprehension to create a list of tasks to download images concurrently.
+        # The download_image function is called for each URL in the DataFrame.
         tasks = [
-            download_image(semaphore, client, url, output, index, err_log)
-            for index, url in enumerate(df[column])
+            download_image(semaphore, client, url, output_dir, index, err_log)
+            for index, url in enumerate(df[column_name])
         ]
+        # for f in tqdm(): tqdm is used to display a progress bar.
+        # asyncio.as_completed(tasks): Returns an iterator over the given coroutines.
+        # The iterator returns futures that complete as the coroutines complete. 
         for f in tqdm(
             asyncio.as_completed(tasks), total=len(tasks), desc="Downloading images"
         ):
@@ -164,24 +195,4 @@ async def get_images(file, column, output, max_dls, err_log):
 
 
 if __name__ == "__main__":
-    print("Starting program...")
-    with open("config.json", "r") as config_file:
-        config = json.load(config_file)
-
-    excel_file = config.get("excel_file", "input.xlsx")
-    url_column = config.get("url_column", "URL")
-    output_folder = config.get("output_folder", "downloaded_images")
-    max_concurrent_downloads = config.get("max_concurrent_downloads", 50)
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    # Initialize an error log dictionary
-    error_log = {"invalid_urls": {}, "download_errors": {}, "METADATA": {"excel_file": excel_file, "timestamp": current_time, "config": config, "notes": ""}}
-    
-    log_errors(error_log)
-
-    # Run the asynchronous image download function
-    asyncio.run(
-        get_images(
-            excel_file, url_column, output_folder, max_concurrent_downloads, error_log
-        )
-    )
+    main()
